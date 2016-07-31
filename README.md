@@ -12,7 +12,7 @@ $ virtualenv keras
 $ source ~/keras/bin/activate  
 $ pip install keras  
 
-Running the code:
+Running the code
 
 Assuming the repo is cloned in ~/ego   
 $ cd ~/ego/code  
