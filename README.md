@@ -34,4 +34,10 @@ Each CSV file is structured with a row for each feature (first the optical flow 
 
 To create a dataset of your own please conform to the same format. Blockwise optical flow can be computed by the excellent code presented here http://www.vision.huji.ac.il/egoseg/. Note that their code only runs on MS Windows. 
 
+License
+
+This code is released for research purposes only. For other uses please contact the authors.
+
+Errata
+
 Please report any bugs to ydidh@cs.huji.ac.il
