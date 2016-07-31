@@ -6,17 +6,18 @@ This code was tested on Ubuntu 14.04
 
 Installation  
 
-Our code has dependencies on keras and numpy. We suggest installing keras in a virtual env
-$ cd ~
-$ virtualenv keras
-$ source ~/keras/bin/activate
-$ pip install keras
+Our code has dependencies on keras and numpy. We suggest installing keras in a virtual env.  
+$ cd ~  
+$ virtualenv keras  
+$ source ~/keras/bin/activate  
+$ pip install keras  
 
 Running the code:
-Assuming the repo is cloned in ~/ego
-$ cd ~/ego/code
-$ python preprocess.py
-$ python train.py
+
+Assuming the repo is cloned in ~/ego   
+$ cd ~/ego/code  
+$ python preprocess.py  
+$ python train.py  
 
 Note that the basic keras installation uses theano. This requires changing setting is_theano=True in code/train.py
 
